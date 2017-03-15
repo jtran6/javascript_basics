@@ -27,3 +27,16 @@ function horsemanOfFamine()
   document.getElementById('content').innerHTML = "Limos. The daughter of Nasha. When Nasha gave birth to one of the lesser gods.  Limos was born with the touch to kill plants unfortunately. Limos is almost always at odds with her mother.  She carries two scales in which she uses to destroy crops. ";
   document.getElementById('image').innerHTML = '<img src="https://c1.staticflickr.com/4/3774/33243174041_9fc961396f_c.jpg" alt="horsemanOfFamine">';
 }
+function forLoop()
+{
+  var text = " ";
+  var length = 2;
+
+  for (var i = 0; i < length; i++)
+  {
+
+    document.getElementById('heading1').innerHTML = "This is the for loop";
+
+  }
+
+}
